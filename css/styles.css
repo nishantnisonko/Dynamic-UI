@@ -1,0 +1,21 @@
+#data-fields {
+    border-right: 0;
+    border-collapse: collapse;
+    font-size: .8em;
+    line-height: 1;
+}
+
+#data-fields td {
+    border:1px solid #EAEAEA;
+	width: 300px;
+}
+
+#data-fields td span {
+	width: 100px;
+	display: inline-block;
+}
+
+#validationMsg {
+	color: red;
+	font-size: 14px;
+}

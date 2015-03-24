@@ -1,0 +1,22 @@
+{
+            "fields": [
+                        {
+                                    "name": "hFname",
+                                    "type": "textbox",
+                                    "length": { "min": 1, "max": 30},
+                                    "label": "City",
+                                    "mandatory": "true",
+                                    "check": "^[a-zA-Z]+$"
+                        },
+                        {
+                                    "name": "hLname",
+                                    "type": "textbox",
+                                    "length": { "min": 1, "max": 30},
+                                    "label": "State",
+                                    "mandatory": "true",
+                                    "check": "^[a-zA-Z]+$"
+                        }
+
+            ],
+            "title": "Head of Department"
+}
